@@ -1,0 +1,77 @@
+/* 
+    1- :link => the link that i not clicked or visited yet.
+    2- these pseuo classes must be in this order: :link, :visited, :hover, :active
+    3- :active => the link when i click on it.
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a:link{
+    color: blue;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: blue;
+    font-size: 17px;
+    transition: .5s;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    background-color: #eee;
+    padding: 1em;
+    border-radius: 20px;
+}
+
+#twitter:visited{
+    color: darkolivegreen
+}
+
+a:active{
+    color: yellow;
+}
+
+header{
+    font-family: monospace;
+    font-size: 16px;
+    background-image: url("../assets/img2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    padding: 15px 25px;
+}
+
+
+
+main{
+    background-color: lightgrey;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    /* border:  2px violet solid; */
+    border-style: solid ;
+    border-width: 2px;
+    border-color: violet;
+    border-bottom: red 2px dashed;
+}
+
+
+article::first-letter{
+    font-size: 30px;
+    color: blueviolet;
+    font-weight: bold;
+}

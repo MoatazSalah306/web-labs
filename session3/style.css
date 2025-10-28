@@ -1,0 +1,65 @@
+.table-section,.form-section,.code-section,.embedded-section{
+    display: flex;
+    justify-content: center;
+}
+
+p,blockquote,code{
+    text-align: center;
+    font-size: 2em;
+}
+
+table{
+    width: 50%;
+    height: 200px;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 20px 0px;
+}
+
+td,th{
+    padding: 15px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 10px;
+    border-color: lightgrey;
+    margin: 7px 0;
+    width: 200px;
+}
+textarea{
+    padding: 10px;
+    border-radius: 10px;
+    border-color: lightgrey;
+    margin: 7px 0;
+    width: 90%;
+}
+
+label{
+    display: block;
+    text-align: left;
+}
+
+form{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #eee;
+    padding: 30px;
+    border-radius: 30px;
+    margin: 20px 0;
+}
+
+button{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: darkcyan;
+    color: white;
+    font-weight: bold;
+}
+
+.form-section-1,.form-section-2,.form-section-3{
+    display: flex;
+    gap: 10px;
+}

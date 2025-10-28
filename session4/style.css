@@ -1,0 +1,19 @@
+h2{
+    text-decoration: dotted wavy;
+    font-size: 20%; /* relative to the parent */
+    font-size: 2em; /* relative to the browser */
+    font-size: 50px; /* absolute size */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-variant: small-caps;
+    color: blueviolet;
+}
+
+#numbers{
+    color: gray;
+}
+
+.letters{
+    color: aqua;
+}
